@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Compile Remove="Services\PersonService.cs" />
+    <Compile Remove="Services\PolicyService.cs" />
+    <Compile Remove="Services\TakafulService.cs" />
+    <Compile Remove="ViewModels\NominationViewModel.cs" />
+    <Compile Remove="ViewModels\PersonViewModel.cs" />
+    <Compile Remove="ViewModels\PolicyViewModel.cs" />
+    <Compile Remove="ViewModels\TakafulPlanViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eTakaful.Domain\Ecommerce.Domain.csproj" />
+    <ProjectReference Include="..\eTakaful.Repository\Ecommerce.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Http.Features">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Ecommerce.Service</AssemblyName>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+</Project>

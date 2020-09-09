@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200504073631_initialDb.cs" />
+    <Compile Remove="Migrations\20200511110046_createProductSize.cs" />
+    <Compile Remove="Migrations\20200511110322_createProductSize.cs" />
+    <Compile Remove="Migrations\20200723083137_addQuantityProductAndCreateShippingDeliveredPaidOrder.cs" />
+    <Compile Remove="Models\Nomination.cs" />
+    <Compile Remove="Models\Person.cs" />
+    <Compile Remove="Models\Policy.cs" />
+    <Compile Remove="Models\TakafulPlan.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+.productDetails__color, .productDetails__size, .productDetails__quantity {
+  display: flex;
+  margin-bottom: 2vh;
+}
+.productDetails__color > label, .productDetails__size > label, .productDetails__quantity > label {
+  width: 7vw;
+}
+.productDetails__select__color, .productDetails__select__size, .productDetails__input__quantity {
+  width: 7vw;
+}
+
+.productDetails__button{
+  margin-left: auto!important;
+}
+.quantity-danger {
+  margin-left: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  margin-left: 2vw;
+}

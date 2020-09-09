@@ -1,0 +1,54 @@
+.orderDetailAdmin__item_pic {
+  width: 100px;
+}
+.orderDetailAdmin__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.orderDetailAdmin__item_content {
+  flex: 1;
+}
+.orderDetailAdmin__item_img {
+  margin-right: 1vw;
+}
+.orderDetailAdmin__item_price {
+  flex: 1;
+  display: flex;
+  padding: 25px;
+  padding-left: 5vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderDetailAdmin__item_price_quantity {
+  flex: 2;
+}
+
+.orderDetailAdmin_item_bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+.orderDetailAdmin_item_note {
+  flex: 2;
+  background-color: red;
+}
+.orderDetailAdmin_item_total_price > span {
+  flex: 2;
+  display: block;
+
+}
+.orderDetailAdmin__item:last-child{
+  margin-bottom: 1vh;
+}
+.orderDetailAdmin_item_total_price_span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/* .orderDetailAdmin_item_total_price_span > span:first-child {
+  flex: 1;
+} */

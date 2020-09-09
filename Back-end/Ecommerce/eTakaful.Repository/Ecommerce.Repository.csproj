@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\INominationRepository.cs" />
+    <Compile Remove="Interfaces\IPersonRepository.cs" />
+    <Compile Remove="Interfaces\IPersonService.cs" />
+    <Compile Remove="Interfaces\IPolicyRepository.cs" />
+    <Compile Remove="Interfaces\IProductReponsitory.cs" />
+    <Compile Remove="NominationRepository.cs" />
+    <Compile Remove="PersonRepository.cs" />
+    <Compile Remove="PolicyRepository.cs" />
+    <Compile Remove="ProductReponsitory.cs" />
+    <Compile Remove="ProductRepository.cs" />
+    <Compile Remove="TakafulPlanRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceCommon\EcommerceCommon.csproj" />
+    <ProjectReference Include="..\eTakaful.Domain\Ecommerce.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    
+  </PropertyGroup>
+
+</Project>

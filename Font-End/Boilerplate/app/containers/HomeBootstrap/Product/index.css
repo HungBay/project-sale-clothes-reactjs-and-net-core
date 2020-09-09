@@ -1,0 +1,22 @@
+.product-view-slider {
+  width: 30%;
+  height: 100px;
+}
+.product-infomation-view {
+  display: inline-block;
+}
+.color-price {
+  color: #FE980F;
+}
+
+/* review  */
+.review-image {
+  width: 86px!important;
+}
+
+.large {
+  width: 64px;
+  height: 64px;
+}
+
+

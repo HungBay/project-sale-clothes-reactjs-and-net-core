@@ -1,0 +1,15 @@
+.accumukatedPoints__label {
+  color: gray;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.accumukatedPoints__checkbox {
+  cursor: pointer;
+}
+.accumukatedPoints__input_number {
+  display: block;
+
+}
+.color-white {
+  color: white!important;
+}

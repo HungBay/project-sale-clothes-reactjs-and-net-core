@@ -1,0 +1,61 @@
+﻿
+@model IList<Size>
+
+
+@{
+    ViewBag.Title = "Index Product";
+}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a asp-action="Index" asp-area="Admin" asp-controller="Product">Product</a>
+    </li>
+    <li class="breadcrumb-item active">Index</li>
+</ol>
+<!--Tim kiem-->
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" asp-controller="Product" asp-area="Admin">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        Title: <input class="form-control" type="text" name="searchString" value="" />
+                    </div>
+                    <div class="col-md-6">
+                        <br />
+                        <input class="btn btn-primary offset-3" type="submit" value="Search" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-6 p-0">
+            <a class="btn btn-primary text-white mb-1" asp-action="Create" asp-area="Admin" asp-controller="Product">Add +</a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.Name)</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int num = 1;
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td scope="row">@(num++)</td>
+                            <td scope="row">@Html.DisplayFor(modelItem => item.Name)</td>
+                            
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--Phân trang -->

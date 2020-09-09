@@ -1,0 +1,192 @@
+.ml-15 {
+  margin-left: 15px;
+}
+.fs-18 {
+  font-size: 22px;
+}
+.productselect-image {
+  height: 220px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.productselect-image .img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.price-item {
+  color: black;
+}
+.price {
+  font-size: 18px;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.add-cart {
+  margin-right: auto;
+  margin-left: 15px;
+}
+.show-view {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.color-price {
+  color: #fe980f;
+}
+.input-cart {
+  width: 50px;
+}
+
+/* cart  */
+.product-image-cart {
+  max-width: 240px;
+}
+
+.price-13 {
+  font-size: 13px;
+}
+
+.hover {
+  cursor: pointer;
+}
+/* orders */
+.product-title-id,
+.product-title-content {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.ff-arial {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.bg-white {
+  background-color: white !important;
+}
+.product-item-pic {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.item-pic {
+  max-width: 160px;
+  max-height: 160px;
+  width: 160px;
+  height: 160px;
+}
+
+.product-item-pic .img {
+  height: 100%;
+  vertical-align: middle;
+}
+.product-title-content {
+  display: flex;
+}
+.wb-30 {
+  width: 30%;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.nowrap-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.color-header {
+  background-color: white !important;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+.line-throughs {
+  text-decoration: line-through;
+}
+.color-orange {
+  color: orange;
+}
+
+.mt-uns-15 {
+  margin-top: -15px;
+}
+
+/* orders home */
+.line {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  width: 100%;
+  left: 15px;
+  position: relative;
+}
+.stepText1 {
+  text-align: left;
+  left: -15px;
+}
+.stepText2 {
+  text-align: center;
+}
+.stepText3 {
+  text-align: right;
+  right: -15px;
+}
+.step {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 100px;
+  margin-top: 30px;
+  transition: 0.4s;
+}
+.step1 {
+  margin-top: -10px;
+  float: left;
+}
+.step2 {
+  margin: 0 auto;
+  margin-top: -10px;
+}
+.step3 {
+  float: right;
+  margin-top: -10px;
+}
+.active-order {
+  background: black;
+}
+.bg-ccc {
+  background-color: #ccc;
+}
+
+.d-block {
+  display: block;
+}
+.pd-15 {
+  padding: 15px;
+}
+
+.pd-0 {
+  padding: 0 !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
